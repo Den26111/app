@@ -15,6 +15,16 @@ const Navbar = () =>{
         <div className={s.item}> 
       <a>Messages</a>
         </div>
+        <div className={s.item}> 
+      <a>Messages</a>
+        </div>
+        <div className={s.item}> 
+      <a>Messages</a>
+        </div>
+        <div className={s.item}> 
+      <a>Messages</a>
+        </div>
+        
     </nav>
     )
 }
