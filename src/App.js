@@ -14,7 +14,7 @@ return(
     <Navbar/>
     <div className={s.content}>
     <Routes>
-    <Route path='/profile' element={<Profile/>}/>
+    <Route   path='/profile' element={<Profile/>}/>
       <Route path='/dialogs' element={<Dialogs/>}/>
       
       </Routes>

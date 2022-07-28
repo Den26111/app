@@ -1,6 +1,8 @@
 import React from "react";
 import s from "./MyPosts.module.css"
 import Post from "./Post/Post.jsx";
+import Button from 'react-bootstrap/Button';
+import 'bootstrap/dist/css/bootstrap.css';
 
 const MyPosts = () => {
   return (<div>
@@ -8,7 +10,9 @@ const MyPosts = () => {
     <div>
       <div>
         <textarea></textarea>
-        <button>Кнопка</button>
+        <div>
+        <Button variant="warning">Отправить</Button>
+        </div>
       </div >
     </div >
     <div className={s.posts}>
