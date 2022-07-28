@@ -12,11 +12,6 @@ const Navbar = () =>{
         <div className={`${s.item} ${s.active}`}>  
       <Link to="/dialogs">Messages</Link>
         </div>
-
-        <div className={`${s.item} ${s.active}`}>  
-      <Link to="/dialogs">Messages</Link>
-        </div>
-        
         <div className={s.item}> 
       <a>Messages</a>
         </div>
